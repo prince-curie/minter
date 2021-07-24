@@ -1,0 +1,24 @@
+{
+  "name": "minter",
+  "version": "0.0.1",
+  "description": "A cli to mint non fungible tokens after it has been deployed",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/prince-curie/minter.git"
+  },
+  "keywords": [
+    "mint",
+    "nft",
+    "tokens"
+  ],
+  "author": "prince-curie",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/prince-curie/minter/issues"
+  },
+  "homepage": "https://github.com/prince-curie/minter#readme"
+}
