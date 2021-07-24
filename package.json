@@ -2,7 +2,10 @@
   "name": "minter",
   "version": "0.0.1",
   "description": "A cli to mint non fungible tokens after it has been deployed",
-  "main": "index.js",
+  "main": "bin/index.js",
+  "bin": {
+    "minter": "./bin/index.js"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -20,5 +23,10 @@
   "bugs": {
     "url": "https://github.com/prince-curie/minter/issues"
   },
-  "homepage": "https://github.com/prince-curie/minter#readme"
+  "homepage": "https://github.com/prince-curie/minter#readme",
+  "dependencies": {
+    "@truffle/hdwallet-provider": "^1.4.2",
+    "inquirer": "^8.1.2",
+    "web3": "^1.4.0"
+  }
 }
